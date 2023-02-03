@@ -1,4 +1,4 @@
-package com;
+package com.javanews;
 
 //Name of class MUST correspond to file name
 public class HelloWorld {
