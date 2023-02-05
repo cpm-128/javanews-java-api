@@ -39,4 +39,13 @@ public class Demo {
     public int hashCode() {
         return Objects.hash(name, age);
     }
+
+    // override the default toString behavior in order to see objects' value
+    @Override
+    public String toString() {
+        return "Demo{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
